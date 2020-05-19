@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D3AEE0E247202A500EE1DD1 /* SensorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3AEE0D247202A500EE1DD1 /* SensorViewModel.swift */; };
+		9D4AF1EE24719C180086A3D7 /* SensorsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AF1EC24719C170086A3D7 /* SensorsTableViewCell.xib */; };
+		9D4AF1EF24719C180086A3D7 /* SensorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AF1ED24719C180086A3D7 /* SensorsTableViewCell.swift */; };
+		9D4AF1F124719C530086A3D7 /* SensorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AF1F024719C530086A3D7 /* SensorDataSource.swift */; };
+		9D66C303246F1D3400D02B8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C302246F1D3400D02B8C /* AppDelegate.swift */; };
+		9D66C305246F1D3400D02B8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C304246F1D3400D02B8C /* SceneDelegate.swift */; };
+		9D66C307246F1D3400D02B8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C306246F1D3400D02B8C /* ViewController.swift */; };
+		9D66C30A246F1D3400D02B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D66C308246F1D3400D02B8C /* Main.storyboard */; };
+		9D66C30D246F1D3400D02B8C /* SensorSimulator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C30B246F1D3400D02B8C /* SensorSimulator.xcdatamodeld */; };
+		9D66C30F246F1D3900D02B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D66C30E246F1D3900D02B8C /* Assets.xcassets */; };
+		9D66C312246F1D3900D02B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D66C310246F1D3900D02B8C /* LaunchScreen.storyboard */; };
+		9D66C31D246F1D3A00D02B8C /* SensorSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C31C246F1D3A00D02B8C /* SensorSimulatorTests.swift */; };
+		9D66C328246F1D3A00D02B8C /* SensorSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C327246F1D3A00D02B8C /* SensorSimulatorUITests.swift */; };
+		9D66C337246F1F5D00D02B8C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C336246F1F5D00D02B8C /* Model.swift */; };
+		9D66C339246F1FDA00D02B8C /* GenericDataSourceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C338246F1FDA00D02B8C /* GenericDataSourceDataSource.swift */; };
+		9D66C343246F2EE600D02B8C /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C342246F2EE600D02B8C /* DynamicValue.swift */; };
+		9D66C345246F316900D02B8C /* SensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C344246F316900D02B8C /* SensorViewController.swift */; };
+		9DB7EB6424742D060003FF2D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7EB6324742D060003FF2D /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D66C319246F1D3A00D02B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D66C2F7246F1D3400D02B8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D66C2FE246F1D3400D02B8C;
+			remoteInfo = SensorSimulator;
+		};
+		9D66C324246F1D3A00D02B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D66C2F7246F1D3400D02B8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D66C2FE246F1D3400D02B8C;
+			remoteInfo = SensorSimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D3AEE0D247202A500EE1DD1 /* SensorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewModel.swift; sourceTree = "<group>"; };
+		9D4AF1EC24719C170086A3D7 /* SensorsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SensorsTableViewCell.xib; sourceTree = "<group>"; };
+		9D4AF1ED24719C180086A3D7 /* SensorsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorsTableViewCell.swift; sourceTree = "<group>"; };
+		9D4AF1F024719C530086A3D7 /* SensorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorDataSource.swift; sourceTree = "<group>"; };
+		9D66C2FF246F1D3400D02B8C /* SensorSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensorSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D66C302246F1D3400D02B8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D66C304246F1D3400D02B8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9D66C306246F1D3400D02B8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D66C309246F1D3400D02B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D66C30C246F1D3400D02B8C /* SensorSimulator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SensorSimulator.xcdatamodel; sourceTree = "<group>"; };
+		9D66C30E246F1D3900D02B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D66C311246F1D3900D02B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D66C313246F1D3900D02B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D66C318246F1D3A00D02B8C /* SensorSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D66C31C246F1D3A00D02B8C /* SensorSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSimulatorTests.swift; sourceTree = "<group>"; };
+		9D66C31E246F1D3A00D02B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D66C323246F1D3A00D02B8C /* SensorSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D66C327246F1D3A00D02B8C /* SensorSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSimulatorUITests.swift; sourceTree = "<group>"; };
+		9D66C329246F1D3A00D02B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D66C336246F1F5D00D02B8C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9D66C338246F1FDA00D02B8C /* GenericDataSourceDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataSourceDataSource.swift; sourceTree = "<group>"; };
+		9D66C342246F2EE600D02B8C /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		9D66C344246F316900D02B8C /* SensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewController.swift; sourceTree = "<group>"; };
+		9DB7EB6324742D060003FF2D /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D66C2FC246F1D3400D02B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D66C315246F1D3A00D02B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D66C320246F1D3A00D02B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D66C2F6246F1D3400D02B8C = {
+			isa = PBXGroup;
+			children = (
+				9D66C301246F1D3400D02B8C /* SensorSimulator */,
+				9D66C31B246F1D3A00D02B8C /* SensorSimulatorTests */,
+				9D66C326246F1D3A00D02B8C /* SensorSimulatorUITests */,
+				9D66C300246F1D3400D02B8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D66C300246F1D3400D02B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D66C2FF246F1D3400D02B8C /* SensorSimulator.app */,
+				9D66C318246F1D3A00D02B8C /* SensorSimulatorTests.xctest */,
+				9D66C323246F1D3A00D02B8C /* SensorSimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D66C301246F1D3400D02B8C /* SensorSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				9D66C346246F33E600D02B8C /* Helpers */,
+				9D66C335246F1F4B00D02B8C /* Sensors */,
+				9D66C302246F1D3400D02B8C /* AppDelegate.swift */,
+				9D66C304246F1D3400D02B8C /* SceneDelegate.swift */,
+				9D66C306246F1D3400D02B8C /* ViewController.swift */,
+				9D66C308246F1D3400D02B8C /* Main.storyboard */,
+				9D66C30E246F1D3900D02B8C /* Assets.xcassets */,
+				9D66C310246F1D3900D02B8C /* LaunchScreen.storyboard */,
+				9D66C313246F1D3900D02B8C /* Info.plist */,
+				9D66C30B246F1D3400D02B8C /* SensorSimulator.xcdatamodeld */,
+			);
+			path = SensorSimulator;
+			sourceTree = "<group>";
+		};
+		9D66C31B246F1D3A00D02B8C /* SensorSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D66C31C246F1D3A00D02B8C /* SensorSimulatorTests.swift */,
+				9D66C31E246F1D3A00D02B8C /* Info.plist */,
+			);
+			path = SensorSimulatorTests;
+			sourceTree = "<group>";
+		};
+		9D66C326246F1D3A00D02B8C /* SensorSimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D66C327246F1D3A00D02B8C /* SensorSimulatorUITests.swift */,
+				9D66C329246F1D3A00D02B8C /* Info.plist */,
+			);
+			path = SensorSimulatorUITests;
+			sourceTree = "<group>";
+		};
+		9D66C335246F1F4B00D02B8C /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				9D66C336246F1F5D00D02B8C /* Model.swift */,
+				9D4AF1ED24719C180086A3D7 /* SensorsTableViewCell.swift */,
+				9D4AF1F024719C530086A3D7 /* SensorDataSource.swift */,
+				9D4AF1EC24719C170086A3D7 /* SensorsTableViewCell.xib */,
+				9D66C344246F316900D02B8C /* SensorViewController.swift */,
+				9D3AEE0D247202A500EE1DD1 /* SensorViewModel.swift */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		9D66C346246F33E600D02B8C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9D66C342246F2EE600D02B8C /* DynamicValue.swift */,
+				9D66C338246F1FDA00D02B8C /* GenericDataSourceDataSource.swift */,
+				9DB7EB6324742D060003FF2D /* SwiftyJSON.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D66C2FE246F1D3400D02B8C /* SensorSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D66C32C246F1D3A00D02B8C /* Build configuration list for PBXNativeTarget "SensorSimulator" */;
+			buildPhases = (
+				9D66C2FB246F1D3400D02B8C /* Sources */,
+				9D66C2FC246F1D3400D02B8C /* Frameworks */,
+				9D66C2FD246F1D3400D02B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensorSimulator;
+			productName = SensorSimulator;
+			productReference = 9D66C2FF246F1D3400D02B8C /* SensorSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D66C317246F1D3A00D02B8C /* SensorSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D66C32F246F1D3A00D02B8C /* Build configuration list for PBXNativeTarget "SensorSimulatorTests" */;
+			buildPhases = (
+				9D66C314246F1D3A00D02B8C /* Sources */,
+				9D66C315246F1D3A00D02B8C /* Frameworks */,
+				9D66C316246F1D3A00D02B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D66C31A246F1D3A00D02B8C /* PBXTargetDependency */,
+			);
+			name = SensorSimulatorTests;
+			productName = SensorSimulatorTests;
+			productReference = 9D66C318246F1D3A00D02B8C /* SensorSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D66C322246F1D3A00D02B8C /* SensorSimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D66C332246F1D3A00D02B8C /* Build configuration list for PBXNativeTarget "SensorSimulatorUITests" */;
+			buildPhases = (
+				9D66C31F246F1D3A00D02B8C /* Sources */,
+				9D66C320246F1D3A00D02B8C /* Frameworks */,
+				9D66C321246F1D3A00D02B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D66C325246F1D3A00D02B8C /* PBXTargetDependency */,
+			);
+			name = SensorSimulatorUITests;
+			productName = SensorSimulatorUITests;
+			productReference = 9D66C323246F1D3A00D02B8C /* SensorSimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D66C2F7246F1D3400D02B8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Erich Benevides Diniz";
+				TargetAttributes = {
+					9D66C2FE246F1D3400D02B8C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9D66C317246F1D3A00D02B8C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9D66C2FE246F1D3400D02B8C;
+					};
+					9D66C322246F1D3A00D02B8C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9D66C2FE246F1D3400D02B8C;
+					};
+				};
+			};
+			buildConfigurationList = 9D66C2FA246F1D3400D02B8C /* Build configuration list for PBXProject "SensorSimulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D66C2F6246F1D3400D02B8C;
+			productRefGroup = 9D66C300246F1D3400D02B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D66C2FE246F1D3400D02B8C /* SensorSimulator */,
+				9D66C317246F1D3A00D02B8C /* SensorSimulatorTests */,
+				9D66C322246F1D3A00D02B8C /* SensorSimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D66C2FD246F1D3400D02B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D66C312246F1D3900D02B8C /* LaunchScreen.storyboard in Resources */,
+				9D4AF1EE24719C180086A3D7 /* SensorsTableViewCell.xib in Resources */,
+				9D66C30F246F1D3900D02B8C /* Assets.xcassets in Resources */,
+				9D66C30A246F1D3400D02B8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D66C316246F1D3A00D02B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D66C321246F1D3A00D02B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D66C2FB246F1D3400D02B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D66C339246F1FDA00D02B8C /* GenericDataSourceDataSource.swift in Sources */,
+				9D66C337246F1F5D00D02B8C /* Model.swift in Sources */,
+				9D66C307246F1D3400D02B8C /* ViewController.swift in Sources */,
+				9DB7EB6424742D060003FF2D /* SwiftyJSON.swift in Sources */,
+				9D66C303246F1D3400D02B8C /* AppDelegate.swift in Sources */,
+				9D66C30D246F1D3400D02B8C /* SensorSimulator.xcdatamodeld in Sources */,
+				9D66C305246F1D3400D02B8C /* SceneDelegate.swift in Sources */,
+				9D3AEE0E247202A500EE1DD1 /* SensorViewModel.swift in Sources */,
+				9D66C343246F2EE600D02B8C /* DynamicValue.swift in Sources */,
+				9D66C345246F316900D02B8C /* SensorViewController.swift in Sources */,
+				9D4AF1F124719C530086A3D7 /* SensorDataSource.swift in Sources */,
+				9D4AF1EF24719C180086A3D7 /* SensorsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D66C314246F1D3A00D02B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D66C31D246F1D3A00D02B8C /* SensorSimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D66C31F246F1D3A00D02B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D66C328246F1D3A00D02B8C /* SensorSimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D66C31A246F1D3A00D02B8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D66C2FE246F1D3400D02B8C /* SensorSimulator */;
+			targetProxy = 9D66C319246F1D3A00D02B8C /* PBXContainerItemProxy */;
+		};
+		9D66C325246F1D3A00D02B8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D66C2FE246F1D3400D02B8C /* SensorSimulator */;
+			targetProxy = 9D66C324246F1D3A00D02B8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D66C308246F1D3400D02B8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D66C309246F1D3400D02B8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D66C310246F1D3900D02B8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D66C311246F1D3900D02B8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D66C32A246F1D3A00D02B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D66C32B246F1D3A00D02B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D66C32D246F1D3A00D02B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RS2HN8N6Z9;
+				INFOPLIST_FILE = SensorSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBD.SensorSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D66C32E246F1D3A00D02B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RS2HN8N6Z9;
+				INFOPLIST_FILE = SensorSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBD.SensorSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D66C330246F1D3A00D02B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SensorSimulatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBD.SensorSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensorSimulator.app/SensorSimulator";
+			};
+			name = Debug;
+		};
+		9D66C331246F1D3A00D02B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SensorSimulatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBD.SensorSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensorSimulator.app/SensorSimulator";
+			};
+			name = Release;
+		};
+		9D66C333246F1D3A00D02B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SensorSimulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBD.SensorSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SensorSimulator;
+			};
+			name = Debug;
+		};
+		9D66C334246F1D3A00D02B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SensorSimulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBD.SensorSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SensorSimulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D66C2FA246F1D3400D02B8C /* Build configuration list for PBXProject "SensorSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D66C32A246F1D3A00D02B8C /* Debug */,
+				9D66C32B246F1D3A00D02B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D66C32C246F1D3A00D02B8C /* Build configuration list for PBXNativeTarget "SensorSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D66C32D246F1D3A00D02B8C /* Debug */,
+				9D66C32E246F1D3A00D02B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D66C32F246F1D3A00D02B8C /* Build configuration list for PBXNativeTarget "SensorSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D66C330246F1D3A00D02B8C /* Debug */,
+				9D66C331246F1D3A00D02B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D66C332246F1D3A00D02B8C /* Build configuration list for PBXNativeTarget "SensorSimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D66C333246F1D3A00D02B8C /* Debug */,
+				9D66C334246F1D3A00D02B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D66C30B246F1D3400D02B8C /* SensorSimulator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D66C30C246F1D3400D02B8C /* SensorSimulator.xcdatamodel */,
+			);
+			currentVersion = 9D66C30C246F1D3400D02B8C /* SensorSimulator.xcdatamodel */;
+			path = SensorSimulator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9D66C2F7246F1D3400D02B8C /* Project object */;
+}

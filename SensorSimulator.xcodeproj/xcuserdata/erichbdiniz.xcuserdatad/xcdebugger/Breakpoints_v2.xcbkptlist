@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "52C69382-2E37-4120-856A-3177436BCBCF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE70DB7E-86F2-415A-81E4-68C0E86053B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SensorSimulator/Sensors/SensorViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "SensorViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CE70DB7E-86F2-415A-81E4-68C0E86053B8 - 77c6b931067737e0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SensorSimulator.SensorViewController.source.getter : SensorSimulator.SensorsDataSource"
+                  moduleName = "SensorSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erichbdiniz/Documents/Repositories/AppleTraining/SensorSimulator/SensorSimulator/Sensors/SensorViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "CE70DB7E-86F2-415A-81E4-68C0E86053B8 - cf06b01635b2b825"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SensorSimulator.SensorViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SensorSimulator.SensorViewController"
+                  moduleName = "SensorSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erichbdiniz/Documents/Repositories/AppleTraining/SensorSimulator/SensorSimulator/Sensors/SensorViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "258">
+               </Location>
+               <Location
+                  uuid = "CE70DB7E-86F2-415A-81E4-68C0E86053B8 - 47a3549473a5bb6d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SensorSimulator.SensorViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SensorSimulator.SensorViewController&gt;"
+                  moduleName = "SensorSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erichbdiniz/Documents/Repositories/AppleTraining/SensorSimulator/SensorSimulator/Sensors/SensorViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0697CADD-A177-48A5-B606-556E371EAE8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SensorSimulator/Sensors/SensorDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0697CADD-A177-48A5-B606-556E371EAE8E - a6771cfd5e29ab07"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SensorSimulator.SensorsDataSource.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "SensorSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erichbdiniz/Documents/Repositories/AppleTraining/SensorSimulator/SensorSimulator/Sensors/SensorDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "627">
+               </Location>
+               <Location
+                  uuid = "0697CADD-A177-48A5-B606-556E371EAE8E - 71f05620981e985e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SensorSimulator.Sensor) -&gt; Swift.String in SensorSimulator.SensorsDataSource.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "SensorSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erichbdiniz/Documents/Repositories/AppleTraining/SensorSimulator/SensorSimulator/Sensors/SensorDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0120D89-2EDB-463B-B44D-4E2C2216072A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SensorSimulator/Sensors/SensorDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E08C7A3-CF62-48FF-9E4E-EC78F8A0C838"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SensorSimulator/Sensors/SensorDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8E08C7A3-CF62-48FF-9E4E-EC78F8A0C838 - a6771cfd5e29ab07"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SensorSimulator.SensorsDataSource.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "SensorSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erichbdiniz/Documents/Repositories/AppleTraining/SensorSimulator/SensorSimulator/Sensors/SensorDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "8E08C7A3-CF62-48FF-9E4E-EC78F8A0C838 - 71f05620981e985e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SensorSimulator.Sensor) -&gt; Swift.String in SensorSimulator.SensorsDataSource.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "SensorSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erichbdiniz/Documents/Repositories/AppleTraining/SensorSimulator/SensorSimulator/Sensors/SensorDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "120F5630-343D-436C-8BD1-EFD89C9A5B37"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SensorSimulator/Sensors/SensorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchSensor()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E40D950A-ED1F-4B00-B96D-60FD554B7F0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SensorSimulator/Sensors/SensorDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "addSensor()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
